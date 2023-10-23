@@ -1,0 +1,80 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+header{
+height: 45px;
+}
+
+header nav ul{
+display: flex;
+margin-left: 70%;
+list-style: none;
+}
+
+header nav ul li{
+padding-left: 10%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+header a{
+text-decoration: none;
+color: brown;
+
+}
+section{
+height: 100vh;
+border: 1px solid grey;
+display: flex;
+justify-content: center;
+align-items: baseline;
+}
+
+.Container{
+margin-top: 10%
+}
+
+.Container img{
+height: 800px;
+align-content: center;
+/*border-radius: 50%;*/
+}
+
+.Container h2{
+margin-top: 3%;
+margin: auto;
+font-size: 3em;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+
+}
+
+.Container p, ul{
+margin-top: 2%;
+font-size: 1.5rem;
+text-align: center;
+
+}
+
+footer {
+line-height: 40px;
+display: flex;
+justify-content: center;
+}
+
+#intro {
+
+}
+#about{
+}
+#contact{
+/*background-color: blanchedalmond;*/
+}
+
